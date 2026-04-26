@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CorsairVPN — Твой личный флагман в океане цифровой свободы</title>
+      <meta name="description" content="Ультимативный VPN-сервис на протоколе VLESS. Обход DPI, полная анонимность без логов и доступ к любым сервисам из любой точки мира.">
+      <link rel="canonical" href="https://corsair-vpn.github.io/" />
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="icon" href="favicon.ico" type="image/x-icon">
+      <link href='https://fonts.googleapis.com/css?family=Lato:100,400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      <link rel="stylesheet" href="grid.css">
+      <link rel="stylesheet" href="menu.css">
+      <link rel="stylesheet" href="jquery.bxslider.css">
+      <link rel="stylesheet" href="responsive.css">
+      <link rel="stylesheet" href="animate.css">
+	  <link rel="stylesheet" href="style.css">
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "CorsairVPN",
+        "url": "https://corsair-vpn.github.io/",
+        "logo": "dark-logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "Support@Corsairvpn.icu",
+          "contactType": "customer support"
+        }
+      }
+      </script>
+
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "CorsairVPN",
+        "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+        "applicationCategory": "VPNApplication",
+        "description": "Быстрый и невидимый VPN на протоколе VLESS (Xray) для обхода DPI-блокировок.",
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "0",
+          "highPrice": "149",
+          "priceCurrency": "RUB",
+          "offerCount": "3"
+        }
+      }
+      </script>
+
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Что такое VLESS и почему он лучше обычного VPN?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "VLESS — это протокол нового поколения, который маскируется под обычный HTTPS-трафик. Он не имеет стандартных признаков VPN, что делает его невидимым для систем DPI и позволяет работать там, где другие сервисы бессильны."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Храните ли вы логи действий пользователей?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Абсолютно нет. Архитектура CorsairVPN исключает сбор метаданных. Наша политика No-Logs гарантирует, что ваша история посещений остается только вашей."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Сколько устройств можно подключить?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Мы не ограничиваем количество ваших личных устройств. Один ключ можно использовать на смартфоне, планшете и ПК одновременно."
+            }
+          }
+        ]
+      }
+      </script>
+
+      <script type="text/javascript">
+          (function(m,e,t,r,i,k,a){
+              m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+              m[i].l=1*new Date();
+              for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+              k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+          })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=108567924', 'ym');
+          ym(108567924, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+      </script>
+      <noscript><div><img src="https://mc.yandex.ru/watch/108567924" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+   </head>
+
+   <body>
+      <div class="se-pre-con">
+         <div class="box loading"></div>
+      </div>
+
+      <div class="hero-section">
+         <div class="main-nav-wrap" id="nav-wrap">
+            <div class="nav-container">
+               <div class="logo">
+                  <a href="/" title="CorsairVPN"><img src="dark-logo.png" alt="Logo"></a>
+               </div>
+               <button class="menu-toggle" id="mobile-menu-toggle">
+                  <span></span><span></span><span></span>
+               </button>
+            </div>
+         </div>
+
+         <div class="hero-content">
+            <div class="container">
+               <h1>CorsairVPN — Твой личный флагман в океане цензуры</h1>
+            </div>
+         </div>
+      </div>
+
+      <section class="brand-carousel-section reveal-block">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 col-md-offset-1 text-center">
+                  <div class="title-area">
+                     <span class="sec-subtitle reveal-item">Забудь про «Доступ ограничен»</span>
+                     <h2 class="sec-title reveal-item">«Мы обеспечиваем стабильный проход к любым ресурсам: от заблокированных соцсетей до ИИ-сервисов, используя технологии, которые невозможно обнаружить».</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="brand-slider-container reveal-item">
+            <div class="brand-track" id="brandTrack">
+               <div class="brand-slide"><a href="/telegram-vpn-vless"><img src="brand-img-1-15.png" alt="Telegram"></a></div>
+               <div class="brand-slide"><a href="/vpn-dlya-robloks"><img src="brand-img-1-11.png" alt="Roblox"></a></div>
+               <div class="brand-slide"><a href="/vpn-dlya-brawl-stars"><img src="brand-img-1-14.png" alt="Brawl Stars"></a></div>
+               <div class="brand-slide"><a href="/vpn-dlya-torrentov"><img src="brand-img-1-1.png" alt="Torrents"></a></div>
+               <div class="brand-slide"><a href="/vpn-dlya-discord"><img src="brand-img-1-13.png" alt="Discord"></a></div>
+               <div class="brand-slide"><a href="/vpn-dlya-tiktoka"><img src="brand-img-1-9.png" alt="TikTok"></a></div>
+               <div class="brand-slide"><a href="/vpn-dlya-gemini"><img src="brand-img-1-3.png" alt="Gemini"></a></div>
+               <div class="brand-slide"><a href="/vpn-dlya-instagram"><img src="brand-img-1-4.png" alt="Instagram"></a></div>
+               <div class="brand-slide"><a href="/vpn-dlya-twitter-x"><img src="brand-img-1-5.png" alt="Twitter X"></a></div>
+               <div class="brand-slide"><a href="/vpn-dlya-chatgpt"><img src="brand-img-1-6.png" alt="ChatGPT"></a></div>
+               <div class="brand-slide"><a href="/vpn-dlya-facebook"><img src="brand-img-1-7.png" alt="Facebook"></a></div>
+               <div class="brand-slide"><a href="/vpn-dlya-youtube-2026-prosmotr-youtube-v-4k"><img src="brand-img-1-8.png" alt="YouTube 4K"></a></div>
+               <div class="brand-slide"><a href="/vpn-dlya-steam-i-psn"><img src="brand-img-1-10.png" alt="Steam/PSN"></a></div>
+               <div class="brand-slide"><a href="/vpn-dlya-polymarket"><img src="brand-img-1-2.png" alt="Polymarket"></a></div>
+               <div class="brand-slide"><a href="/vpn-dlya-netflix"><img src="brand-img-1-12.png" alt="Netflix"></a></div>
+            </div>
+         </div>
+      </section>
+
+      <section class="service-promo-section reveal-block">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8 col-md-offset-2 text-center">
+                  <div class="promo-content">
+                     <span class="sec-subtitle reveal-item">В чем ценность CorsairVPN?</span>
+                     <p class="promo-description reveal-item">
+                        Бесплатные VPN — это сыр в мышеловке: они торгуют вашей историей браузера и тормозят на каждом шагу. Мы предлагаем честную сделку: вы получаете мощнейшую инфраструктуру, выделенные каналы и абсолютную анонимность без компромиссов.
+                     </p>
+                     <div class="promo-divider reveal-item">
+                        <i class="fas fa-anchor"></i>
+                     </div>
+                     <p class="promo-text reveal-item">
+                        CorsairVPN — это элитный флот серверов в 10 ключевых геопозициях. Мы оптимизировали каждый узел специально для обхода DPI-фильтров, чтобы вы могли смотреть 4K-контент и пользоваться нейросетями так, будто ограничений никогда не существовало.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="tg-bridge-section reveal-block">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 col-md-offset-1 text-center">
+                  <div class="title-area">
+                     <span class="sec-subtitle reveal-item">Связь с базой под угрозой?</span>
+                     <h2 class="sec-title reveal-item">Если ваш провайдер блокирует даже Telegram, используйте наш «Стелс-мост» для быстрого входа:</h2>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row tg-bridge-grid">
+               <div class="col-md-6 bridge-card-wrapper reveal-item">
+                  <div class="bridge-card">
+                     <div class="bridge-icon"><i class="fas fa-shield-alt"></i></div>
+                     <h3>Активируйте Proxy</h3>
+                     <p>Мгновенный обход блокировки мессенджера для беспрепятственного доступа к нашему боту.</p>
+                     <div class="cta-btn">
+                        <a href="tg://proxy?server=85.117.234.179&port=443&secret=705975e5d8c5aa9f093b3c8cabb02ed0" class="pirate-btn">
+                           <span class="btn-text">Включить прокси</span>
+                           <i class="fas fa-skull-crossbones"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-6 bridge-card-wrapper reveal-item">
+                  <div class="bridge-card featured">
+                     <div class="bridge-icon"><i class="fab fa-telegram-plane"></i></div>
+                     <h3>Запустить бот-командора</h3>
+                     <p>Ваш личный кабинет для управления подписками, получения ключей и моментальной техподдержки.</p>
+                     <div class="cta-btn">
+                        <a href="https://t.me/vpncorsair_bot" target="_blank" class="pirate-btn">
+                           <span class="btn-text">Стать корсаром</span>
+                           <i class="fas fa-skull-crossbones"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-10 col-md-offset-1">
+                  <div class="bridge-info-note reveal-item">
+                     <i class="fas fa-lightbulb"></i>
+                     <p><strong>Важно:</strong> После активации основного соединения VPN, прокси внутри Telegram можно отключить — основной туннель защитит всё устройство целиком.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="features-layout1 reveal-block">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <div class="title-area">
+                     <span class="sec-subtitle reveal-item">Вооружение корсара</span>
+                     <h2 class="sec-title reveal-item">Технологическое превосходство над цензурой</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row features-grid">
+               <div class="col-md-4 feature-item-wrapper slide-left">
+                  <div class="feature-card">
+                     <div class="feature-icon"><i class="fas fa-user-secret"></i></div>
+                     <div class="feature-content">
+                        <h3>Крипто-защита Xray</h3>
+                        <p>Трафик инкапсулируется так, что для провайдера он выглядит как обычный просмотр сайта по HTTPS.</p>
+                     </div>
+                  </div>
+                  <div class="feature-card">
+                     <div class="feature-icon"><i class="fas fa-key"></i></div>
+                     <div class="feature-content">
+                        <h3>Приватность по праву</h3>
+                        <p>Никаких почт, номеров телефонов или паролей. Ваш анонимный ключ — это ваша единственная идентификация.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 feature-item-wrapper slide-up">
+                  <div class="feature-card">
+                     <div class="feature-icon"><i class="fas fa-globe-americas"></i></div>
+                     <div class="feature-content">
+                        <h3>Глобальный охват</h3>
+                        <p>Протокол VLESS открывает двери в ChatGPT, Gemini, Spotify и Netflix из любой точки мира без осечек.</p>
+                     </div>
+                  </div>
+                  <div class="feature-card">
+                     <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+                     <div class="feature-content">
+                        <h3>Развертывание за 30 сек</h3>
+                        <p>От получения ключа до свободного интернета — всего пара кликов в интуитивном приложении.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 feature-item-wrapper slide-right">
+                  <div class="feature-card">
+                     <div class="feature-icon"><i class="fas fa-users"></i></div>
+                     <div class="feature-content">
+                        <h3>Семейный доступ</h3>
+                        <p>Один конфиг можно использовать на всех ваших гаджетах одновременно без доплаты за устройства.</p>
+                     </div>
+                  </div>
+                  <div class="feature-card">
+                     <div class="feature-icon"><i class="fas fa-shield-virus"></i></div>
+                     <div class="feature-content">
+                        <h3>Боевое дежурство 24/7</h3>
+                        <p>Наши серверы мониторятся ежесекундно. Если одну гавань закроют, мы мгновенно откроем две новых.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="cta-layout1 reveal-block">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 col-md-offset-1 text-center">
+                  <div class="cta-content">
+                     <span class="sec-subtitle reveal-item">Полная совместимость</span>
+                     <h2 class="sec-title reveal-item">Бронебойный доступ с любого устройства</h2>
+                     <div class="cta-platforms reveal-item">
+                        <div class="platform-item"><i class="fab fa-windows"></i><span>Windows</span></div>
+                        <div class="platform-item"><i class="fab fa-apple"></i><span>macOS</span></div>
+                        <div class="platform-item"><i class="fab fa-android"></i><span>Android</span></div>
+                        <div class="platform-item"><i class="fas fa-laptop"></i><span>Linux</span></div>
+                        <div class="platform-item"><i class="fab fa-apple"></i><span>iOS App</span></div>
+                     </div>
+                     <p class="cta-text reveal-item">
+                        VLESS — это гибкий и легкий стандарт. Он не выжимает батарею смартфона и не нагружает систему ПК. Мы предоставляем подробные инструкции для каждой ОС, чтобы ваш путь к свободе был максимально гладким.
+                     </p>
+                     <div class="cta-btn reveal-item">
+                        <a href="https://t.me/vpncorsair_bot" target="_blank" class="pirate-btn">
+                           <span class="btn-text">Стать корсаром</span>
+                           <i class="fas fa-skull-crossbones"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="pricing-section reveal-block">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <div class="title-area">
+                     <span class="sec-subtitle reveal-item">Варианты контракта</span>
+                     <h2 class="sec-title reveal-item">Выберите свой уровень автономности</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row pricing-grid">
+               <div class="col-md-4 pricing-card-wrapper reveal-item">
+                  <div class="pricing-card">
+                     <div class="pricing-header">
+                        <i class="fas fa-anchor plan-icon"></i>
+                        <h3>Пробный рейд</h3>
+                        <div class="price">0₽ <span>/ 24 часа</span></div>
+                     </div>
+                     <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Тест боевой мощи 24ч</li>
+                        <li><i class="fas fa-qrcode"></i> QR-код для импорта</li>
+                        <li><i class="fas fa-infinity"></i> Безлимитный трафик</li>
+                        <li><i class="fas fa-bolt"></i> Полная скорость</li>
+                     </ul>
+                     <div class="cta-btn">
+                        <a href="https://t.me/vpncorsair_bot" target="_blank" class="pirate-btn">
+                           <span class="btn-text">Попробовать</span>
+                           <i class="fas fa-skull-crossbones"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 pricing-card-wrapper reveal-item">
+                  <div class="pricing-card featured">
+                     <div class="badge">Популярный</div>
+                     <div class="pricing-header">
+                        <i class="fas fa-ship plan-icon"></i>
+                        <h3>Опытный капер</h3>
+                        <div class="price">149₽ <span>/ мес</span></div>
+                     </div>
+                     <ul class="pricing-features">
+                        <li><i class="fas fa-star"></i> Приоритетная поддержка</li>
+                        <li><i class="fas fa-globe"></i> Все локации флота</li>
+                        <li><i class="fas fa-infinity"></i> Безлимитный драйв</li>
+                        <li><i class="fas fa-lock-open"></i> Без ограничений DPI</li>
+                     </ul>
+                     <div class="cta-btn">
+                        <a href="https://t.me/vpncorsair_bot" target="_blank" class="pirate-btn">
+                           <span class="btn-text">Купить доступ</span>
+                           <i class="fas fa-skull-crossbones"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 pricing-card-wrapper reveal-item">
+                  <div class="pricing-card">
+                     <div class="pricing-header">
+                        <i class="fas fa-gem plan-icon"></i>
+                        <h3>Король морей</h3>
+                        <div class="price">134₽ <span>/ 1 мес</span></div>
+                     </div>
+                     <ul class="pricing-features">
+                        <li><i class="fas fa-crown"></i> Максимальная выгода</li>
+                        <li><i class="fas fa-shield-alt"></i> Резервные каналы</li>
+                        <li><i class="fas fa-infinity"></i> Безлимитный трафик</li>
+                        <li><i class="fas fa-bolt"></i> Самый низкий пинг</li>
+                     </ul>
+                     <div class="cta-btn">
+                        <a href="https://t.me/vpncorsair_bot" target="_blank" class="pirate-btn">
+                           <span class="btn-text">Выгодный курс</span>
+                           <i class="fas fa-skull-crossbones"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="map-layout1 space reveal-block">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <div class="title-area">
+                     <span class="sec-subtitle">Наша карта сокровищ</span>
+                     <h2 class="sec-title">10 стратегических локаций</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row row-flex">
+               <div class="col-md-7">
+                  <div class="map-wrapper">
+                     <img src="world-map2.png" alt="World Map" class="map-img">
+                     <div class="rpin usa" style="top: 40%; left: 19%;"><span>США</span></div>
+                     <div class="rpin canada" style="top: 25%; left: 20%;"><span>Канада</span></div>
+                     <div class="rpin brazil" style="top: 66%; left: 31%;"><span>Бразилия</span></div>
+                     <div class="rpin norway" style="top: 28%; left: 48%;"><span>Норвегия</span></div>
+                     <div class="rpin germany" style="top: 36%; left: 49%;"><span>Германия</span></div>
+                     <div class="rpin france" style="top: 35%; left: 48%;"><span>Нидерланды</span></div>
+                     <div class="rpin finland" style="top: 27%; left: 52%;"><span>Финляндия</span></div>
+                     <div class="rpin egypt" style="top: 49%; left: 55%;"><span>Египет</span></div>
+                     <div class="rpin china" style="top: 47%; left: 76%;"><span>Китай</span></div>
+                     <div class="rpin japan" style="top: 42%; left: 88%;"><span>Япония</span></div>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="map-body">
+                     <p class="map-text">
+                        Мы разместили свои узлы в самых свободных зонах интернета. Выбирайте любую гавань — от США до Японии — и меняйте свою цифровую личность в один клик. Наш флот готов к выходу.
+                     </p>
+                     <div class="location-grid">
+                        <div class="loc-item">
+                           <img src="map-item-1-1.png" alt="America">
+                           <div class="loc-info"><h4>Америка</h4><p>3 Локации</p></div>
+                        </div>
+                        <div class="loc-item">
+                           <img src="map-item-1-2.png" alt="Europe">
+                           <div class="loc-info"><h4>Европа</h4><p>4 Локации</p></div>
+                        </div>
+                        <div class="loc-item">
+                           <img src="map-item-1-3.png" alt="Africa">
+                           <div class="loc-info"><h4>Африка</h4><p>1 Локация</p></div>
+                        </div>
+                        <div class="loc-item">
+                           <img src="map-item-1-4.png" alt="Asia">
+                           <div class="loc-info"><h4>Азия</h4><p>2 Локации</p></div>
+                        </div>
+                     </div>
+                     <div class="cta-btn">
+                        <a href="https://t.me/vpncorsair_bot" target="_blank" class="pirate-btn">
+                           <span class="btn-text">Выбери свою гавань</span>
+                           <i class="fas fa-skull-crossbones"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="faq-layout1 reveal-block">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-8 col-md-offset-2 text-center">
+                      <div class="title-area">
+                          <span class="sec-subtitle reveal-item">ЧАВО</span>
+                          <h2 class="sec-title reveal-item">Вопросы на мостике CorsairVPN</h2>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                      <div class="corsair-faq reveal-item" id="faqGroup">
+                          
+                          <div class="faq-item active">
+                              <div class="faq-question">
+                                  <span>Что такое VLESS (Xray) и почему это важно?</span>
+                                  <i class="fas fa-chevron-down"></i>
+                              </div>
+                              <div class="faq-answer" style="display: block;">
+                                  <p>Это вершина стелс-проксирования. Ваш трафик мимикрирует под стандартный HTTPS, становясь невидимым для систем глубокого анализа (DPI). Это не просто VPN, это невидимый плащ для вашего интернет-соединения.</p>
+                              </div>
+                          </div>
+
+                          <div class="faq-item">
+                              <div class="faq-question">
+                                  <span>На каких устройствах я смогу работать?</span>
+                                  <i class="fas fa-chevron-down"></i>
+                              </div>
+                              <div class="faq-answer">
+                                  <p>Мы поддерживаем все современные платформы. Рекомендуем: <strong>Android</strong> (v2rayNG), <strong>iOS</strong> (FoXray, Streisand), <strong>Windows/macOS</strong> (Nekoray). Настройка занимает меньше минуты.</p>
+                              </div>
+                          </div>
+
+                          <div class="faq-item">
+                              <div class="faq-question">
+                                  <span>Зачем мне переходить на платный сервис?</span>
+                                  <i class="fas fa-chevron-down"></i>
+                              </div>
+                              <div class="faq-answer">
+                                  <p>Чтобы стереть границы. С CorsairVPN вам снова доступны Instagram, YouTube в 4K, ChatGPT и любые мировые библиотеки знаний и развлечений без рекламы и слежки.</p>
+                              </div>
+                          </div>
+
+                          <div class="faq-item">
+                              <div class="faq-question">
+                                  <span>Пострадает ли скорость интернета?</span>
+                                  <i class="fas fa-chevron-down"></i>
+                              </div>
+                              <div class="faq-answer">
+                                  <p>Мы используем 10-гигабитные аплинки. Потеря скорости составляет менее 5%. Вы сможете комфортно играть в соревновательные игры и смотреть стримы в 4K без буферизации.</p>
+                              </div>
+                          </div>
+
+                          <div class="faq-item">
+                              <div class="faq-question">
+                                  <span>Насколько сложно подключиться?</span>
+                                  <i class="fas fa-chevron-down"></i>
+                              </div>
+                              <div class="faq-answer">
+                                  <p>Проще некуда. Копируете ключ из бота — вставляете в приложение одним нажатием. Всё. Никаких паролей, подтверждений по почте и SMS.</p>
+                              </div>
+                          </div>
+
+                          <div class="faq-item">
+                              <div class="faq-question">
+                                  <span>Что с моими личными данными?</span>
+                                  <i class="fas fa-chevron-down"></i>
+                              </div>
+                              <div class="faq-answer">
+                                  <p>Ваша приватность — наш приоритет. Мы физически не записываем логи. Техническая архитектура VLESS позволяет нам обеспечивать доступ без сбора метаданных о ваших действиях.</p>
+                              </div>
+                          </div>
+
+                          <div class="faq-item">
+                              <div class="faq-question">
+                                  <span>Есть ли лимит по устройствам?</span>
+                                  <i class="fas fa-chevron-down"></i>
+                              </div>
+                              <div class="faq-answer">
+                                  <p>Мы не считаем ваши гаджеты. Используйте один ключ на смартфоне, планшете, ноутбуке и домашнем ПК одновременно. Мы за свободу во всём.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <footer class="main-footer" style="background-image: url(footer-bg-1-1.jpg);">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-3 col-md-6 footer-column">
+                  <div class="footer-logo">
+                     <img src="dark-logo.png" alt="CorsairVPN">
+                  </div>
+                  <p class="footer-text">CorsairVPN — ваш непотопляемый проводник в мире свободного интернета. С 2025 года мы строим сеть, которую невозможно сломать.</p>
+                  <div class="footer-social">
+                     <a href="#"><i class="fab fa-facebook"></i></a>
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 footer-column">
+                  <h4 class="footer-title">Контакты</h4>
+                  <div class="contact-info">
+                     <a href="https://t.me/corsairvpn" class="contact-item">
+                        <div class="icon-box"><i class="fas fa-paper-plane"></i></div>
+                        <span>Канал в Telegram</span>
+                     </a>
+                     <a href="https://t.me/black_corsair" class="contact-item">
+                        <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                        <span>Написать в Telegram</span>
+                     </a>
+                     <a href="mailto:Support@Corsairvpn.icu" class="contact-item">
+                        <div class="icon-box"><i class="fas fa-at"></i></div>
+                        <span>Support@Corsairvpn.icu</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <a href="https://t.me/vpncorsair_bot" class="footer-cta-button">Купить VPN VLESS</a>
+               </div>
+            </div>
+            <div class="footer-bottom">
+               <div class="row">
+                  <div class="col-md-6">
+                     <p>Copyright © 2025 <span>CORSAIRVPN</span>. Твой курс на абсолютную свободу.</p>
+                  </div>
+                  <div class="col-md-6 text-md-right">
+                     <a href="/privacy">Политика Конфиденциальности</a>
+                     <a href="/terms">Пользовательское Соглашение</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="jquery.bxslider.min.js"></script>
+<script src="jquery.waypoints.min.js"></script>
+<script src="fixed-responsive-nav.js"></script>
+<script src="script.js"></script>
+      <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          const ipSpan = document.getElementById('user-ip');
+          const locSpan = document.getElementById('user-location');
+          const statusSpan = document.getElementById('user-status');
+
+          function updateIPData(data) {
+              if (ipSpan) ipSpan.textContent = data.ip || data.query;
+              if (locSpan) {
+                  const city = data.city ? data.city + ', ' : '';
+                  const country = data.country_name || data.country || '';
+                  locSpan.textContent = city + country;
+              }
+              if (statusSpan) {
+                  const code = data.country_code || data.countryCode;
+                  if (code !== 'RU') {
+                      statusSpan.innerHTML = '<i class="fas fa-shield-check"></i> Защищено';
+                      statusSpan.style.color = '#00ff00';
+                  } else {
+                      statusSpan.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Не защищено';
+                      statusSpan.style.color = '#ff4d4d';
+                  }
+              }
+          }
+
+          fetch('https://ipapi.co/json/')
+              .then(res => res.json())
+              .then(data => updateIPData(data))
+              .catch(() => {
+                  fetch('https://ip-api.com/json/?lang=ru')
+                      .then(res => res.json())
+                      .then(data => updateIPData(data));
+              });
+
+          // FAQ Logic
+          $('.faq-question').on('click', function() {
+              const item = $(this).closest('.faq-item');
+              const isActive = item.classList ? item.classList.contains('active') : item.hasClass('active');
+              
+              $('.faq-item').removeClass('active').find('.faq-answer').slideUp();
+              if (!isActive) {
+                  item.addClass('active').find('.faq-answer').slideDown();
+              }
+          });
+
+          // Reveal animations logic
+          const revealObserver = new IntersectionObserver((entries) => {
+              entries.forEach(entry => {
+                  if (entry.isIntersecting) {
+                      entry.target.classList.add('active');
+                  }
+              });
+          }, { threshold: 0.1 });
+          document.querySelectorAll('.reveal-block').forEach(el => revealObserver.observe(el));
+      });
+      </script>
+   </body>
+</html>
